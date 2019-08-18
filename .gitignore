@@ -63,3 +63,4 @@ typings/
 less.exe.stackdump
 
 /__sapper__/
+test.html
