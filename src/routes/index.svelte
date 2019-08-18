@@ -311,7 +311,6 @@ const mount = ({detail}) => {
 
 {#if modals.css}
 <Modal on:close={setModal.bind(null,'css',false)}>
-  <!-- <ModalCSSOutput/> -->
   <ModalCSSDynamicImport/>
 </Modal>
 {/if}
