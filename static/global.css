@@ -17,6 +17,7 @@
 }
 
 img {
+  margin: 10px 0;
   -webkit-user-drag: none;
   -khtml-user-drag: none;
   -moz-user-drag: none;
