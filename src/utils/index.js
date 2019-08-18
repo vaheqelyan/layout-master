@@ -52,7 +52,7 @@ export const generateCSSOutput = (items, view, settingsRow, settingsColumn, rowH
 
   var gridTemplateRowsSettings = `${fn('<span class="num">')}${`${settingsRow ? vals[settingsRow] : `${rowHeight}px`} `.repeat(rowsCount).trimRight()}${fn("</span>")}`;
 
-  var gridTemplateColumnsSettings = `${fn('<span class="num">')}${`${vals[settingsColumn]} `.repeat($columns).trimRight()}${fn("</span>")}`;
+  var gridTemplateColumnsSettings = `${fn('<span class="num">')}${`${vals[settingsColumn]} `.repeat(columns).trimRight()}${fn("</span>")}`;
 
   switch (view) {
     case "other":
