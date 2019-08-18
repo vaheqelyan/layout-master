@@ -2,6 +2,7 @@
 	.highlight {
 	border: 1px solid deeppink;
   position: absolute;
+  z-index: 101;
 }
 </style>
 
