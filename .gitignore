@@ -61,3 +61,5 @@ typings/
 .next
 
 less.exe.stackdump
+
+/__sapper__/
