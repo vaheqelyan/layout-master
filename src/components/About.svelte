@@ -55,6 +55,12 @@ p {
 		</div>
 
 		<div>
+			<p class="label">TIP</p>
+			<p>You can use the Ctrl key to highlight the grid or in the context menu by selecting "Highlight grid"</p>
+			<img alt="Highlight grid" src="https://res.cloudinary.com/dmtrk3yns/image/upload/c_scale,h_388,q_auto/v1566135912/grid-maker/ezgif-2-a3ef207c2eec.gif">
+		</div>
+
+		<div>
 			<p class=label>EXTERNAL LINKS</p>
 			<p><a href=https://github.com/vaheqelyan target=_blank>Author — vaheqelyan</a></p>
 			<p><a href=https://github.com/vaheqelyan/layout-master target=_blank>GitHub Repo — layout-master</a></p>
