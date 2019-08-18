@@ -57,7 +57,7 @@ p {
 		<div>
 			<p class=label>EXTERNAL LINKS</p>
 			<p><a href=https://github.com/vaheqelyan target=_blank>Author — vaheqelyan</a></p>
-			<p><a href=https://github.com/vaheqelyan/repo target=_blank>GitHub Repo — grid-maker</a></p>
+			<p><a href=https://github.com/vaheqelyan/repo target=_blank>GitHub Repo — layout-master</a></p>
 			<p><a href=https://github.com/vaheqelyan/repo target=_blank>Dev.to — Make CSS3 Grid layout in 1 minute</a></p>
 			<p><a href=https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout target=_blank>MDN web docs — CSS Grid Layout</a></p>
 		</div>
