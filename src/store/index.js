@@ -4,7 +4,7 @@ let settings = {
   columns:3,
   rowHeight:100,
   gap:10,
-  gridTemplateColumns:'1fr',
+  gridTemplateColumns:'auto',
   gridTemplateRows:undefined,
   container:true
 }
