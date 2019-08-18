@@ -48,8 +48,8 @@
 	</div>
 	<div class=tabs>
 		<div class=tab class:active={view==='grid-template-areas'} on:click={select.bind(null, 'grid-template-areas')}>grid-template-areas</div>
-		<div class=tab class:active={view==='grid-area'} on:click={select.bind(null, 'grid-area')}>Grid-area</div>
-		<div class=tab class:active={view==='other'} on:click={select.bind(null, 'other')}>Other choice</div>
+		<div class=tab class:active={view==='grid-area'} on:click={select.bind(null, 'grid-area')}>grid-area</div>
+		<div class=tab class:active={view==='other'} on:click={select.bind(null, 'other')}>other choice</div>
 	</div>
 
 	<div class=tab-content>
