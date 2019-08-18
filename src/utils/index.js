@@ -116,7 +116,7 @@ export const generateCSSOutput = (items, view, settingsRow, settingsColumn, rowH
 
       break;
 
-    case "grid-template":
+    case "grid-template-areas":
       const m = makeMatrixFromItems(items, Math.max(...items.map(val => val.y + val.h), 1), columns);
       let template = m
         .join("\n")
@@ -135,7 +135,7 @@ export const generateCSSOutput = (items, view, settingsRow, settingsColumn, rowH
       res = [
         ...[
           `${fn('<span class="selector">')}.container${fn("</span>")} {
-  ${fn('<span class="prop">')}grid-template${fn("</span>")}: ${template};
+  ${fn('<span class="prop">')}grid-template-areas${fn("</span>")}: ${template};
   ${fn('<span class="prop">')}grid-template-rows${fn("</span>")}: ${gridTemplateRowsSettings};
   ${fn('<span class="prop">')}grid-template-columns${fn("</span>")}: ${gridTemplateColumnsSettings};
   ${gridGap}
