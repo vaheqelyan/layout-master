@@ -47,7 +47,7 @@
 		<button on:click={copy}>{copyText}</button>
 	</div>
 	<div class=tabs>
-		<div class=tab class:active={view==='grid-template'} on:click={select.bind(null, 'grid-template')}>Grid-template</div>
+		<div class=tab class:active={view==='grid-template-areas'} on:click={select.bind(null, 'grid-template-areas')}>grid-template-areas</div>
 		<div class=tab class:active={view==='grid-area'} on:click={select.bind(null, 'grid-area')}>Grid-area</div>
 		<div class=tab class:active={view==='other'} on:click={select.bind(null, 'other')}>Other choice</div>
 	</div>
@@ -63,7 +63,7 @@ import { items, rowHeight, columns, gridTemplateColumns, gridTemplateRows,gap,co
 import { generateCSSOutput } from "../utils";
 
 	let copyText='copy'
-	let view = 'grid-template'
+	let view = 'grid-template-areas'
 	const select= (item,e)=> view = item;
 
 let rows = Math.max(...$items.map(val => val.y + val.h), 1);
