@@ -231,8 +231,8 @@ const contextmenuItem = (item, e) => {
   e.preventDefault();
   e.stopPropagation();
   const origin = {
-    left: e.pageX,
-    top: e.pageY
+    left: e.clientX,
+    top: e.clientY
   };
 
   let context = [
