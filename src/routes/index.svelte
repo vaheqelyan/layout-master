@@ -283,12 +283,6 @@ const setModal = (label, toogle) => {
   };
 };
 
-const keydown = e => {
-  if (e.ctrlKey && e.keyCode===17) {
-    highlightGrid = !highlightGrid;
-  }
-};
-
 let xPerPx;
 
 const resize=({detail})=>{
@@ -315,7 +309,7 @@ const mount = ({detail}) => {
 </Modal>
 {/if}
 
-<svelte:window on:contextmenu={contextmenuGrid} on:mousedown={mousedownGrid} on:keydown={keydown}/>
+<svelte:window on:contextmenu={contextmenuGrid} on:mousedown={mousedownGrid} />
 
 {#if toogleSettings}
   <svelte:component this={Settings} on:close={closeSettings}/>
