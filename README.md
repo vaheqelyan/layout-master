@@ -6,6 +6,12 @@
 <p align="center">
   <a><img src="https://img.shields.io/website/https/layout-master.now.sh?style=for-the-badge"/></a>
 </p>
+
+<p align="center">
+	<a href="https://layout-master.now.sh/" target="_blank" rel="noopener noreferrer">
+		<img src="assets/demo.gif" />
+	</a>
+</p>
     
 ##### INTRODUCTION
 
