@@ -30,5 +30,5 @@ You can highlight the grid in the context menu by selecting "Highlight grid"
 
 ##### EXTERNAL LINKS
 
-- [Dev.to — Make CSS3 grid layout in 1 minute]()
+- [Dev.to — Make CSS3 grid layout in 1 minute](https://dev.to/vaheqelyan/make-css3-grid-layout-in-1-minute-4eo4)
 - [MDN web docs — CSS Grid Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
