@@ -3,7 +3,7 @@
   "theme_color": "#232331",
   "name": "Layout-master",
   "short_name": "LM",
-  "display": "minimal-ui",
+  "display": "standalone",
   "start_url": "/",
   "icons": [
     {
